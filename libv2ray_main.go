@@ -232,7 +232,7 @@ func MeasureOutboundDelay(ConfigureFileContent string, url string) (int64, error
 // CheckVersionX returns the library and Xray versions
 func CheckVersionX() string {
 	var version = 37
-	return fmt.Sprintf("Lib v%d, Xray-core v%s", version, core.Version())
+	return fmt.Sprintf("Lib v%d, Xray-core v26.6.1-custom", version)
 }
 
 // ReconcileBrowserDialer updates the browser dialer address and reloads its configuration
